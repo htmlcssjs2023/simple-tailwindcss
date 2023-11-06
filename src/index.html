@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="../dist/css/main.css">
 </head>
 <body>
-    <h2>Simple tailwind css</h2>
+    <div class="container mx-auto py-2">
+        <!-- NAVBAR START  -->
+            <nav class=" flex flex-col md:flex-row justify-between items-center">
+                
+                <div class="flex flex-col mb-10 md:flex-row md:mb-0 items-center gap-4">
+                    <img src="../src/assets/codeabc_circle.png" alt="logo" class=" h-[90px] w-[90px]">
+                    <div class="flex flex-col md:flex-row w-full gap-4 items-center">
+                        <p>Home</p>
+                        <p>About</p>
+                        <p>Support</p>
+                        <p>Contact Us</p>
+                        <img src="../src/assets/search.png" alt="logo">
+                    </div>
+                </div>
+                <div class="flex md:items-center border-t-orange-400 gap-4 ">
+                    <img src="../src//assets/lock.png" alt="lock icon" class="h-[24px] w-[20px]">
+                    <p>Login</p>
+                    <button class="bg-primary px-8 py-3 rounded-md text-white font-bold">Donate Now</button>
+                    
+                </div>
+            </nav>
+        <!-- NAVBAR END  -->
+    </div>
 </body>
 </html>
