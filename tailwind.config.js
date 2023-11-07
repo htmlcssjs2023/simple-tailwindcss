@@ -4,8 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "primary": "#0092E4",
-        "secondary": "#183656"
+        "primary": "#C1FF72",
+        "secondary": "#94B143"
+      },
+      backgroundSize:{
+        "width": "200px",
+        "height": "200px"
       }
     },
   },

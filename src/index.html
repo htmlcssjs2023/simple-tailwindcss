@@ -1,34 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>simple-tailwindcss</title>
-    <link rel="stylesheet" href="../dist/css/main.css">
-</head>
-<body>
+    <link rel="shortcut icon" href="../src/assets/Zoom-IT.png" class="w-[2rem]" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/css/main.css" />
+  </head>
+  <body>
     <div class="container mx-auto py-2">
-        <!-- NAVBAR START  -->
-            <nav class=" flex flex-col md:flex-row justify-between items-center">
-                
-                <div class="flex flex-col mb-10 md:flex-row md:mb-0 items-center gap-4">
-                    <img src="../src/assets/codeabc_circle.png" alt="logo" class=" h-[90px] w-[90px]">
-                    <div class="flex flex-col md:flex-row w-full gap-4 items-center">
-                        <p>Home</p>
-                        <p>About</p>
-                        <p>Support</p>
-                        <p>Contact Us</p>
-                        <img src="../src/assets/search.png" alt="logo">
-                    </div>
+      <!-- NAVBAR START  -->
+      <nav class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex flex-col mb-10 md:flex-row md:mb-0 items-center gap-4">
+          <img
+            src="../src/assets/Zoom-IT.png"
+            alt="logo"
+            class="w-[8rem]"
+          />
+          <div class="flex flex-col md:flex-row w-full gap-4 items-center">
+            <p>Home</p>
+            <p>About</p>
+            <p>Support</p>
+            <p>Contact Us</p>
+            <img src="../src/assets/search.png" alt="logo" />
+          </div>
+        </div>
+        <div class="flex md:items-center border-t-orange-400 gap-4">
+          <img
+            src="../src//assets/lock.png"
+            alt="lock icon"
+            class="h-[24px] w-[20px]"
+          />
+          <p>Login</p>
+          <button
+            class="bg-secondary px-8 py-3 rounded-md text-white font-bold"
+          >
+            Donate Now
+          </button>
+        </div>
+      </nav>
+      <!-- NAVBAR END  -->
+
+      <!-- HERO SECTION START -->
+      <section>
+        <div
+          class="flex flex-col md:flex-row md:justify-between md:items-center mt-8 md:mt-0"
+        >
+          <div class="w-8/12 justify-end pl-16 order-2 md:order-1">
+            <p class="text-3xl md:text-5xl font-bold">
+              <span class="text-primary text-4xl md:text-5xl font-bold"
+                >Tailwind CSS</span
+              >
+              Course <br />Instructor
+            </p>
+            <p class="text-3xl md:text-6xl font-bold mt-6">Md Abdul Halim</p>
+            <p class="text-2xl font-bold mt-8">
+              Founder, Progrmming tips and tricks
+            </p>
+            <div>
+              <button
+                class="bg-secondary px-8 py-2 text-2xl text-white font-bold mr-4 rounded-md mt-8"
+              >
+                Get Token
+              </button>
+              <button class="">
+                White paper<img
+                  class="ml-4 inline-block"
+                  src="../src/assets/play.png"
+                  alt=""
+                  class="inline-block"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="order-1 md:order2 w-[20rem] mx-auto md:w-[30rem]">
+            <img src="../src//assets/mdabdulhalim.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- HERO SECTION END -->
+
+      <!-- SERVICE START -->
+      <section class="mt-20">
+        <div class="flex justify-center bg-gray-100 py-4">
+          <div class="flex flex-col items-center">
+            <p class="text-secondary font-bold text-center">
+              Service we work for
+            </p>
+            <p class="text-black font-bold">What care we do for your career</p>
+            <img
+              src="../src//assets/down.png"
+              alt=""
+              class="w-[20px] h-[20px] mt-4 rounded-full border border-primary p-4"
+            />
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-20 mt-20 px-20">
+          <div class="text-center shadow-2xl p-4">
+            <img
+              src="../src/assets/career1.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt- mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+          <div class="text-center shadow-2xl p-4">
+            <img
+              src="../src/assets/career2.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt-4 mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+          <div class="text-center shadow-2xl p-4">
+            <img
+              src="../src/assets/career3.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt-4 mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+          <div class="text-center shadow-2xl p-4">
+            <img
+              src="../src/assets/career4.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt-4 mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+          <div
+            class="text-center shadow-2xl p-4 transition duration-150 ease-in-out"
+          >
+            <img
+              src="../src/assets/career5.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt-4 mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+          <div class="text-center shadow-2xl p-4">
+            <img
+              src="../src/assets/career6.png"
+              alt=""
+              class="inline-block mx-auto"
+            />
+            <h3 class="text-2xl font-bold mt-4 mb-6">Coding</h3>
+            <p class="leading-6">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Repellendus minus quia eum dolorum aliquam cum ullam, eligendi
+              perspiciatis fugiat repudiandae!
+            </p>
+            <button class="text-primary font-bold">Learn more >></button>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICE END -->
+
+      <!-- COUNTER START  -->
+      <section>
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 mt-20 bg-gray-200 py-20 px-20 gap-10 mb-40"
+        >
+          <div>
+            <h2 class="text-4xl font-bold text-primary text-center">254</h2>
+            <p class="text-center">Successful Project</p>
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-primary text-center">254</h2>
+            <p class="text-center">Successful Project</p>
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-primary text-center">254</h2>
+            <p class="text-center">Successful Project</p>
+          </div>
+          <div>
+            <h2 class="text-4xl font-bold text-primary text-center">254</h2>
+            <p class="text-center">Successful Project</p>
+          </div>
+        </div>
+      </section>
+      <!-- COUNTER END -->
+
+      <!-- MAP START  -->
+      <section>
+        <div class="text-center mt-20">
+          <h2 class="text-4xl font-semibold mb-8">
+            Those states we provide donation
+          </h2>
+          <p class="text-[#555] font-semibold">
+            We are organizing a program on January 20, 2019 to help the homeless
+            people. Our aim is to provide them a specific place to live.
+          </p>
+        </div>
+        <div>
+          <img src="../src//assets/states.png" alt="" class="mx-auto mt-20" />
+        </div>
+      </section>
+      <!-- MAP END -->
+
+      <!-- COMMUNICATION SECTIN START  -->
+      <section class="mb-40">
+        <div class="flex flex-col items-center">
+          <h3 class="text-2xl font-bold mb-6">
+            Introducing video calling support
+          </h3>
+          <p class="mb-4 text-center">
+            Every email, web page, and social media post makes an impression on
+            your customers. With our software you can be confident it's
+            impression.
+          </p>
+          <button
+            class="rounded-sm px-4 text-secondary hover:text-secondary font-bold w-[200px]"
+          >
+            Explore Details >>
+          </button>
+        </div>
+
+        <div
+          class="md:w-[60rem] md:h-auto md:rounded-md mx-auto mt-8 relative rounde-md w-[30rem] h-auto md:relative"
+        >
+          <img src="../src//assets/background.jpg" alt="" class="rounded-md" />
+          <div
+            class="w-[200px] md:w-[250px] md:h-[130px] bg-orange-300 rounded-tl-xl rounded-tr-xl rounded-bl-xl p-4 absolute top-[4rem] md:top-44 md:-left-12 let-0"
+          >
+            <p class="font-bold">
+              Hi, I’m Andry. Let me know what can I do for you
+            </p>
+          </div>
+          <div
+            class="w-[200px] h-[70px] md:w-[250px] md:h-[100px] bg-primary rounded-tl-2xl rounded-bl-2xl p-4 absolute top-[14rem] right-0 md:top-[400px] md:right-0"
+          >
+            <p class="font-bold">your personal support assistance</p>
+          </div>
+        </div>
+      </section>
+      <!-- COMMUNICATION SECTIN END -->
+
+      <!-- TEAM WORK START  -->
+      <section class="mb-30">
+        <div>
+          <img src="../src/assets/team.png" class="mx-auto" alt="" />
+        </div>
+        <div class="bg-secondary md:h-[10rem] md:w-full p-8 rounded-md">
+          <div class="flex md:justify-center md:items-center md:flex-row flex-col">
+            <h2 class="text-black font-bold text-2xl">
+              Do you have any question? Feel free to contact us Contact Us Now
+            </h2>
+            <img src="../src/assets/shape.png" alt="" />
+            <button
+              class="bg-primary px-8 py-3  font-bold mr-4 rounded-md mt-8"
+            >
+              Contact Us Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- TEAM WORK END -->
+
+      <!-- FOOTER START -->
+        <section class="mt-32 py-10 px-4 bg-primary rounded-sm mx-auto">
+
+            <div class="grid md:grid-cols-5 gap-4 ">
+                <div>
+                    <img src="../src/assets/Zoom-IT.png" alt="" class="w-[7rem]">
+                    <h3 class="text-[18px] font-semibold mb-4">Programming Tips & Tricks</h3>
+                    <p>Terms of use | Privacy</p>
+                    <p>Terms of use | Privacy</p>
                 </div>
-                <div class="flex md:items-center border-t-orange-400 gap-4 ">
-                    <img src="../src//assets/lock.png" alt="lock icon" class="h-[24px] w-[20px]">
-                    <p>Login</p>
-                    <button class="bg-primary px-8 py-3 rounded-md text-white font-bold">Donate Now</button>
+                <div>
+                    <h3 class="text-[18px] font-semibold mb-4">About Us</h3>
+                    <p>Support Center</p>
+                    <p>Customer Support</p>
+                    <p>About Us</p>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <h3 class="text-[18px] font-semibold mb-4">Our Information</h3>
+                    <p>Support Center</p>
+                    <p>Customer Support</p>
+                    <p>About Us</p>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <h3 class="text-[18px] font-semibold mb-4">My Account</h3>
+                    <p>Support Center</p>
+                    <p>Customer Support</p>
+                    <p>About Us</p>
+                    <p>About Us</p>
+                </div>
+                <div>
+                    <h3 class="text-[18px] font-semibold mb-4">Connect</h3>
+                    <div class="">
+                        <div class="flex gap-4  mb-4 cursor-pointer">
+                            <img src="/src/assets/facebook.png" alt="" ><span>facebook</span>
+                        </div>
+                        <div class="flex gap-4 mb-4 cursor-pointer">
+                            <img src="/src/assets/twitter.png" alt="" ><span>twitter</span>
+                        </div>
+                        <div class="flex gap-4 mb-4 cursor-pointer">
+                            <img src="/src/assets/github.png" alt="" ><span>github</span>
+                        </div>
+                        <div class="flex gap-4 mb-4 cursor-pointer">
+                            <img src="/src/assets/dribble.png" alt="" ><span>dribble</span>
+                        </div>
+                    </div>
                     
                 </div>
-            </nav>
-        <!-- NAVBAR END  -->
+            </div>
+        </section>
+      <!-- FOOTER END -->
+
     </div>
-</body>
+  </body>
 </html>
